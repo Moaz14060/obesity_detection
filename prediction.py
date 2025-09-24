@@ -133,20 +133,20 @@ def preprocess (value: dict, _one_hot: OneHotEncoder, _min_max_scaler: MinMaxSca
     return final_value_df
 
 # Load Encoders
-with open("F:/obesity_detection/encoders/one_hot.pkl", "rb") as f:
+with open("encoders/one_hot.pkl", "rb") as f:
     one_hot = pickle.load(f)
 
-with open("F:/obesity_detection/encoders/scaler.pkl", "rb") as f:
+with open("encoders/scaler.pkl", "rb") as f:
     min_max_scaler = pickle.load(f)
 
-with open("F:/obesity_detection/encoders/ordinal.pkl", "rb") as f:
+with open("encoders/ordinal.pkl", "rb") as f:
     ordinal_encoder = pickle.load(f)
 
 # Preprocess the value
 value_to_pred = preprocess(value, one_hot, min_max_scaler, ordinal_encoder)
 
 # Load Logistic Regression Model
-with open("F:/obesity_detection/models/logistic_model.sav", "rb") as f:
+with open("models/logistic_model.sav", "rb") as f:
     log_model = pickle.load(f)
 
 # A method to center the button
@@ -162,4 +162,5 @@ if pred:
         st.warning("Be Cautious!")
     else:
         st.error(f"Your Weight Type: **{weight_type}**")
+
         st.warning("Go See a Doctor Immediatley!")
