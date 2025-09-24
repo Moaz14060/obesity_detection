@@ -19,6 +19,9 @@ st.write("**Third,** training a **logistic regression** model with accuracy of *
 st.write("**Finally,** Predecting **weight category** using an attractive interface.")
 st.divider()
 
+# Subtitle
+st.header("Predecting Outcomes:")
+
 # Radio buttons for gender feature
 gender = st.radio("Select your gender: ", ("Male", "Female"))
 
@@ -164,4 +167,5 @@ if pred:
         st.error(f"Your Weight Type: **{weight_type}**")
 
         st.warning("Go See a Doctor Immediatley!")
+
 
