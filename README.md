@@ -13,7 +13,7 @@
 - **utils.py:** a helper python file for visualzations, outlier detection and missing values display.
 - **requirements.txt:** a file to get the nessecery **liberaries** into the streamlit app.
 # How to Run:
-- **First Method:** you can go here to see the app right away https://incomepredection-yyl96edv23abvryefsappbv.streamlit.app/
+- **First Method:** you can go here to see the app right away https://obesitydetection-89jtamzebuqdk8bcffpbhr.streamlit.app/
 - **Second Method:** download the repository and type
 ```bash
 # Install dependencies
