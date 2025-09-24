@@ -15,7 +15,7 @@ st.header("In this App:")
 st.write("**First,** Preprocessing data that consists the estimation of obesity levels in people" \
 " from the countries of Mexico, Peru and Colombia, with ages between 14 and 61 and diverse eating habits and physical condition.")
 st.write("**Second,** exploring it visaualy using **EDA**.")
-st.write("**Third,** training a **logistic regression** model with accuracy of **73%**.")
+st.write("**Third,** training a **logistic regression** model with accuracy of **74%**.")
 st.write("**Finally,** Predecting **weight category** using an attractive interface.")
 st.divider()
 
@@ -164,3 +164,4 @@ if pred:
         st.error(f"Your Weight Type: **{weight_type}**")
 
         st.warning("Go See a Doctor Immediatley!")
+
