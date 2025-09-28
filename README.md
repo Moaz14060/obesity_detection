@@ -1,5 +1,5 @@
 # About:
-- Creating a machine learning model **Logistic Regression** to predect a person's weight type wheather it's one of these categories `Insufficient Weight`, `Normal Weight`,
+- Creating a machine learning model **Logistic Regression** to predict a person's weight type whether  it's one of these categories `Insufficient Weight`, `Normal Weight`,
 `Obesity Type I`, `Obesity Type II`, `Obesity Type III`, `Overweight Level I`, `Overweight Level II`.
 # Steps:
 - Preprocessing **ObesityDataSet.csv** by cleaning Na values, encoding categorical values and scaling numerical values.
